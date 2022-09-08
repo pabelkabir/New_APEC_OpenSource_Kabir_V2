@@ -1,0 +1,19 @@
+#
+# Sample file for quick installation. To use it:
+# 1. Edit each field according to your settings
+# 2. Rename me as ARMconfig
+# 3. Place me in the same folder as install.sh
+# 4. Run install.sh and enjoy!
+#
+
+MolcasInstall /nfs/01/bgs0352/bin/2015_July28_serial/molcas-v8.1.15-07-21
+MolcasDriver  /nfs/01/bgs0352/bin/2015_July28_serial/molcas-v8.1.15-07-21
+MolcasVersion 8.1
+TinkerDir /nfs/01/bgs0352/bin/2015_July28_serial/molcas-v8.1.15-07-21/tinker-6.3.3/bin 
+TinkerVersion 6.3
+Queue Torque
+GromacsPath /usr/local/gromacs/4.5.5/bin
+DowserPath /nfs/01/bgs0352/bin/dowser/bin/dowser
+Modeller YES
+SCWRL4 YES
+
