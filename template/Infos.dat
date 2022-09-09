@@ -1,0 +1,11 @@
+Template /userapp/APEC_KABIR/New_APEC/template
+Tinker /userapp/APEC_KABIR/build/tinker/bin
+Version Tk 6.3.3
+Queue SLURM
+Gromacs YES
+GroPath /userapp/APEC_KABIR/gromacs-2019.3/bin/bin
+Dowser YES
+DowPath /userapp/APEC_KABIR/dowser/bin/dowser
+Modeller NO
+SCWRL4 YES
+Dimer NO
