@@ -1,4 +1,6 @@
-QM/MM APEC Protocol for Flavo-proteins. Includes technical details needed for future development:
+### QM/MM APEC Protocol for Flavo-proteins. 
+
+Includes technical details needed for future development:
 
 1.	Before getting started, modify your .bashrc or .bash_profile to include PATH variables from this .bashrc: /userapp/APEC_Kabir/bashrc_backup.
 
