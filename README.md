@@ -1,5 +1,6 @@
 ### QM/MM (APEC) Protocol for Flavo-proteins. 
-
+### Overview
+The QM/MM (APEC) protocol for flavoproteins combines Quantum Mechanics and Molecular Mechanics to accurately model these enzymes' biochemical processes. APEC, which stands for Average Protein Electrostatic Configuration, enhances this approach by averaging the protein's electrostatic environment, leading to more precise simulations. This protocol is particularly useful for studying the electron transfer mechanisms and conformational dynamics of flavoproteins, providing valuable insights into their catalytic activities and potential applications in biotechnology and medicine.
 
 ### Requirements:
 
@@ -9,7 +10,9 @@
 
 3) Modify "atomdict.db" into the directory "~/dowser/DATA" to allow Dowser to recognize the RET or any other chromophore
  
-4) Update sample-ARMconfig file (See details in that file) and then run install.sh 
+4) Update sample-ARMconfig file (See details in that file) and then run install.sh
+
+### Workflow Description:
 
 Includes technical details needed for future development:
 
