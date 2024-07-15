@@ -1,8 +1,19 @@
 ### QM/MM (APEC) Protocol for Flavo-proteins. 
 
+
+### Requirements:
+
+1) Install Dowser, Modeller, Scrwl4, Molcas (7.8) and Tinker (5)
+
+2) Install VMD and make sure it can be run sliently from prompt.  
+
+3) Modify "atomdict.db" into the directory "~/dowser/DATA" to allow Dowser to recognize the RET or any other chromophore
+ 
+4) Update sample-ARMconfig file (See details in that file) and then run install.sh 
+
 Includes technical details needed for future development:
 
-1.	Before getting started, modify your .bashrc or .bash_profile to include PATH variables from this .bashrc: /userapp/APEC_Kabir/bashrc_backup.
+1.	Before getting started, modify your .bashrc or .bash_profile to include PATH variables from this .bashrc: template/bashrc_backup. This bashrc is an example. Modify it based on your PATH variables of all the modules.
 
 2.	New_APEC.sh (/userapp/APEC_Kabir/New_APEC/New_APEC.sh): This is the first script to run to start a calculation.
 To start, all you need is a pdb file. Delete unwanted chains and groups from the pdb (e.g., if the system is a dimer made up of chains A and B and you only want to model the monomer, you can delete chain A). 
