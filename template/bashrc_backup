@@ -1,0 +1,32 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+
+alias gohome='cd /data/PHO_WORK/$USER'
+export DOWSER=/userapp/APEC_GOZEM/dowser
+export DOW_MACH=linux
+export MODELLER=/userapp/APEC_GOZEM/modeller9.12
+export PYTHONPATH=$MODELLER/modlib:$MODELLER/lib/x86_64-intel8
+export LD_LIBRARY_PATH=$MODELLER/modlib:$MODELLER/lib/x86_64-intel8:$LD_LIBRARY_PATH
+
+PATH=$PATH:/userapp/APEC_GOZEM/bin
+PATH=$PATH:/userapp/APEC_GOZEM/g03
+PATH=$PATH:$DOWSER/bin:$DOWSER/bin/$DOW_MACH
+PATH=$PATH:/userapp/APEC_GOZEM/scwrl4
+PATH=$PATH:/userapp/APEC_GOZEM/modeller9.12/bin
+PATH=$PATH:/userapp/APEC_GOZEM/vmd-1.9.1/bin
+PATH=$PATH:/userapp/APEC_GOZEM/gromacs/bin
+PATH=$PATH:/userapp/APEC_GOZEM/Python-3.6.2/bin
+PATH=$PATH:/userapp/APEC_GOZEM/resp-2.2/bin
+export PATH
+
+alias qu='squeue -u $USER'
+alias du='du -h --max-depth=1'
