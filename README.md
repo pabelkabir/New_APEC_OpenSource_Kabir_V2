@@ -1,4 +1,4 @@
-### QM/MM APEC Protocol for Flavo-proteins. 
+### QM/MM (APEC) Protocol for Flavo-proteins. 
 
 Includes technical details needed for future development:
 
